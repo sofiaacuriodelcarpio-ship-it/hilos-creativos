@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crea tu peluche | Cozy Crochet Club</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body style="background-color: #f3e9fb;">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado-crear">
+
+        <h1>🧶 Hilos Creativos</h1>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="amigurumis.html">Amigurumis</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="pagina-crear">
+
+        <section class="titulo-crear">
+
+            <h1>✨ Crea tu propio peluche</h1>
+
+            <p>
+                Diseña un pequeño compañero tejido con amor ♡
+            </p>
+
+        </section>
+
+
+        <!-- CREADOR -->
+        <section class="creador-completo">
+
+            <!-- OPCIONES -->
+            <div class="personalizacion">
+
+                <h2>Personaliza tu amigurumi ♡</h2>
+
+                <label for="tipo">Tipo:</label>
+
+                <select id="tipo">
+                    <option value="ranita">🐸 Ranita</option>
+                    <option value="gatito">🐱 Gatito</option>
+                    <option value="conejito">🐰 Conejito</option>
+                    <option value="osito">🐻 Osito</option>
+                </select>
+
+
+                <label>Color:</label>
+
+                
+
+<div class="colores-peluche">
+
+    <button type="button" class="color" data-color="crema" style="background:#f8d9bd"></button>
+
+    <button type="button" class="color" data-color="rosa" style="background:#f5aaa9"></button>
+
+    <button type="button" class="color" data-color="lila" style="background:#c9b2d8"></button>
+
+    <button type="button" class="color" data-color="verde" style="background:#b8c18a"></button>
+
+</div>
+
+                <label for="tamano">Tamaño:</label>
+
+                <select id="tamano">
+                    <option>Pequeño 7cm</option>
+                    <option>Mediano 12cm</option>
+                    <option>Grande 18cm</option>
+                </select>
+
+
+                <label for="accesorios">Accesorios:</label>
+
+                <select id="accesorios">
+                    <option value="moño">🎀 Moño</option>
+                    <option value="flor">🌸 Flor</option>
+                    <option value="corazon">💗 Corazón</option>
+                    <option value="ninguno">Sin accesorios</option>
+                </select>
+
+
+                <button class="crear-peluche" id="crear">
+                    Crear mi peluche ♡
+                </button>
+
+
+<div class="precio-peluche">
+    <p class="titulo-precio">♡ Precio de tu peluche ♡</p>
+
+    <div class="detalle-precio">
+        <span>Peluche</span>
+        <span id="precio-base">S/ 9</span>
+    </div>
+
+    <div class="detalle-precio">
+        <span>Accesorio</span>
+        <span id="precio-accesorio">S/ 2</span>
+    </div>
+
+    <div class="separador-precio"></div>
+
+    <div class="total-precio">
+        <span>♡ Total</span>
+        <span id="precio-total">S/ 11</span>
+    </div>
+
+   <p class="mensaje-precio">Hecho especialmente para ti ✨</p>
+
+<button id="hacer-pedido" type="button">
+    💚 Hacer pedido por WhatsApp
+</button>
+
+</div>
+
+
+
+
+            </div>
+
+
+            <!-- PREVISUALIZACION -->
+            <div class="vista-peluche">
+
+                <div class="marco-peluche">
+   <img
+    id="imagen-peluche"
+    data-carpeta="../images/"
+    src="../images/rana_crema.png"
+    alt="Mi peluche personalizado"
+>
+</div>
+
+                <p>Tu pequeño compañero ♡</p>
+
+            </div>
+
+        </section>
+
+    </main>
+<script src="../script.js"></script>
+<script src="../accesorios.js"></script>
+<script src="../precios.js"></script>
+</body>
+</html>
