@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Nombre exacto de tu archivo
         const nombreImagen =
-            `${animal} ${color} ${accesorio}.png`;
+    `${animal} ${color} ${accesorio}.png`.normalize("NFD");
 
         // Ruta desde pages/crear.html
         imagen.src = `../accesorios/${nombreImagen}`;
